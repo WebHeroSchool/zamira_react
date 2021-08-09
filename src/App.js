@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-
+import {count, length}  from './number.js'
 
 let name = 'Замира';
 let isWorking = true;
@@ -31,6 +31,7 @@ function App() {
         {null}
         {false}
         {true}
+        count * length = {count*length}
         </p>
         <a
           className="App-link"
