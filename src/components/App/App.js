@@ -1,14 +1,10 @@
 import React from 'react';
-import ItemList from '../ItemList/ItemList';
-import Footer from '../Footer/Footer';
+import ItemList from '../ItemList/ItemList'
 
-
-const todoItem = 'Выполнить задание';
 const App = () => (
   <div>
     <h1>Важные дела:</h1>
-    <ItemList todoItem={todoItem}/>
-    <Footer count={4} />
+    <ItemList />
   </div>);
 
 export default App;
