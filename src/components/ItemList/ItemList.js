@@ -1,10 +1,12 @@
 import React from 'react';
 import Item from '../Item/Item'
 
-const ItemList = ( { todoItem} ) => ( <ul>
-    <li><Item todoItem={todoItem} /></li>
-    <li><Item todoItem={'Отправить на проверку'} /></li>
-    <li><Item todoItem={'Приступить к следующему'} /></li>
+// const moreArr = [1, 2, 3].map(item => item + 1);
+
+const ItemList = ( { items } ) => ( <ul>
+    {items.map(item=> <li key={item.value}>
+        <Item value={item.value} />
+        </li>)}
   </ul>);
 
 export default ItemList;
