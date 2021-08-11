@@ -1,0 +1,9 @@
+.wrap{
+  display: block;
+  margin: auto;
+  width: 300px;
+}
+.wrap_title{
+  font-family: Georgia;
+  color: #0F1C3A;
+}
