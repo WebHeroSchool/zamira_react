@@ -9,13 +9,16 @@ const todoItem = 'Выполнить задание';
 const App = () => {
   const items = [
     {
-      value: 'Выполнить задание'
+      value: 'Выполнить задание',
+      isDone: true
     },
     {
-    value : 'Отправить на проверку'
+    value : 'Отправить на проверку',
+    isDone: true
     },
     {
-    value: 'Приступить к следующему'
+    value: 'Приступить к следующему',
+    isDone: false
     }
   ];
 
